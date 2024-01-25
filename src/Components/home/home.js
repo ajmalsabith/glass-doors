@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../navbar/navbar";
+import { FaQuoteRight } from "react-icons/fa";
 import "./home.css";
 
 function Home() {
@@ -54,36 +55,28 @@ function Home() {
             </p>
           </div>
           <div className="col-md-3 mt-4 dh5">
-            <h4 className="th4">Easy Fitting</h4>
+            <h4 className="th4">Free, At Home
+            Services</h4>
             <hr />
             <p>
-              Introducing our expert glass fitting service, where quality meets
-              convenience. We specialize in seamless glass installations,
-              ensuring your projects are not only stunning but also hassle-free.
-              Trust us to bring your vision to life with precision and
-              professionalism.
+            Experience the convenience of our free, at-home glass services. We bring our expertise right to your doorstep, ensuring your glass needs are met with ease and without any additional cost
             </p>
           </div>
           <div className="col-md-3 mt-4 dh5">
-            <h4 className="th4">Easy Fitting</h4>
+            <h4 className="th4">
+            Award Winning
+            Service</h4>
             <hr />
             <p>
-              Introducing our expert glass fitting service, where quality meets
-              convenience. We specialize in seamless glass installations,
-              ensuring your projects are not only stunning but also hassle-free.
-              Trust us to bring your vision to life with precision and
-              professionalism.
+            We take pride in our industry-recognized excellence, delivering top-quality solutions that have earned us acclaim. Choose us for your glass needs, and experience the difference that comes with an award-winning touch
             </p>
           </div>
           <div className="col-md-3 mt-4 dh5">
-            <h4 className="th4">Easy Fitting</h4>
+            <h4 className="th4">Licensed &
+            Insured</h4>
             <hr />
             <p>
-              Introducing our expert glass fitting service, where quality meets
-              convenience. We specialize in seamless glass installations,
-              ensuring your projects are not only stunning but also hassle-free.
-              Trust us to bring your vision to life with precision and
-              professionalism.
+            We prioritize your peace of mind by ensuring that our professionals are qualified and our work is fully protected. Your satisfaction and security are our top priorities.
             </p>
           </div>
         </div>
@@ -96,7 +89,7 @@ function Home() {
             <div class="img-cont">
               <h2 className="th5">Home</h2>
               <img
-                class="img3"
+                class="img4"
                 src="images/vertical-shot-transparent-doors-commercial-building.jpg"
                 alt=""
               />
@@ -106,11 +99,7 @@ function Home() {
           <div className="col-md-4 dh6 mt-4">
             <div class="img-cont">
               <h2 className="th5">Office</h2>
-              <img
-                class="img3"
-                src="images/city-square.jpg"
-                alt=""
-              />
+              <img class="img4" src="images/city-square.jpg" alt="" />
             </div>
           </div>
 
@@ -118,17 +107,51 @@ function Home() {
             <div class="img-cont">
               <h2 className="th5">Hospital</h2>
               <img
-                class="img3"
+                class="img4"
                 src="images/transparent-elevator-underground-passage.jpg"
                 alt=""
               />
             </div>
           </div>
-          <button className="btn btn-dark mt-4 btn-md ">View More</button>
+        </div>
+        <div className="d-flex align-item-center justify-content-center">
+          <button className="btn btn2 btn-dark mt-5 btn-md ">View More</button>
+        </div>
+        <div className="row dh7 mt-5">
+          <div className="dh4">
+            <h2 className="th3">Satisfied Customers</h2>
+          </div>
+          <div className="col-md-4 dh8 mt-4">
+          <FaQuoteRight className="faquote mb-2" />
+          <p>
+            ensuring your projects are not only stunning but also hassle-free.
+            Trust us to bring your vision to life with precision and
+            professionalism.
+          </p>
+          <h4 className="th4">ajfan uk</h4>
+          </div>
+          <div className="col-md-4 dh8 mt-4">
+          <FaQuoteRight className="faquote mb-2" />
+          <p>
+            ensuring your projects are not only stunning but also hassle-free.
+            Trust us to bring your vision to life with precision and
+            professionalism.
+          </p>
+          <h4 className="th4">suhail p</h4>
+          </div>
+          <div className="col-md-4 dh8 mt-4">
+          <FaQuoteRight className="faquote mb-2" />
+          <p>
+            ensuring your projects are not only stunning but also hassle-free.
+            Trust us to bring your vision to life with precision and
+            professionalism.
+          </p>
+          <h4 className="th4">arun m</h4>
+          </div>
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default Home;

@@ -1,11 +1,13 @@
 .img2{
     height: 600px;
     width: 100%;
+    object-fit: cover;
 }
 
 .img3{
-    height: 70vh;
+    height: 100%;
     width: 100%;
+    object-fit: cover;
 }
 .th1{
     text-align: center;
@@ -17,6 +19,13 @@ a{
 
 .btn1:hover{
     background-color: blueviolet;
+    transform: scale(1.1);
+}
+
+.btn2:hover{
+    background-color: blueviolet;
+    transform: scale(1.1);
+
 }
 
 .dh3 {
@@ -48,9 +57,9 @@ a{
   }
 
   .dh5{
-    border: 1px solid rgb(109, 107, 107);
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.805);
     padding: 30px;
+    border-radius: 10%;
     
   }
 
@@ -67,6 +76,10 @@ a{
     align-items: center;
     justify-content: center;
     height: 750px;
+  }
+
+  .dh6:hover{
+    transform:scale(1.1);
   }
   
   .img-cont {
@@ -95,10 +108,18 @@ a{
     z-index: 0; 
   }
   
-  .img3 {
+  .img4 {
     width: 100%;
     height: 100%;
     object-fit: cover; 
   }
   
-  
+  .dh8{
+    padding: 30px;
+  }
+
+  .faquote{
+    font-size: 30px;
+    color: #a26028;
+    margin-left: 45%;
+  }
