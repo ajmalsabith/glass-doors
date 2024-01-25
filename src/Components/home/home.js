@@ -15,7 +15,7 @@ function Home() {
           />
         </div>
 
-        <div className="row mt-4">
+        <div className="row mt-5">
           <div className="col-md-6 dh3">
             <img
               className="img3"
@@ -39,41 +39,96 @@ function Home() {
           </div>
         </div>
         <div className="row mt-5">
-        <div className="dh4">
-        <h2 className="th3">Why Choose Us</h2>
+          <div className="dh4">
+            <h2 className="th3">Why Choose Us</h2>
+          </div>
+          <div className="col-md-3  mt-4 dh5">
+            <h4 className="th4">Easy Fitting</h4>
+            <hr />
+            <p>
+              Introducing our expert glass fitting service, where quality meets
+              convenience. We specialize in seamless glass installations,
+              ensuring your projects are not only stunning but also hassle-free.
+              Trust us to bring your vision to life with precision and
+              professionalism.
+            </p>
+          </div>
+          <div className="col-md-3 mt-4 dh5">
+            <h4 className="th4">Easy Fitting</h4>
+            <hr />
+            <p>
+              Introducing our expert glass fitting service, where quality meets
+              convenience. We specialize in seamless glass installations,
+              ensuring your projects are not only stunning but also hassle-free.
+              Trust us to bring your vision to life with precision and
+              professionalism.
+            </p>
+          </div>
+          <div className="col-md-3 mt-4 dh5">
+            <h4 className="th4">Easy Fitting</h4>
+            <hr />
+            <p>
+              Introducing our expert glass fitting service, where quality meets
+              convenience. We specialize in seamless glass installations,
+              ensuring your projects are not only stunning but also hassle-free.
+              Trust us to bring your vision to life with precision and
+              professionalism.
+            </p>
+          </div>
+          <div className="col-md-3 mt-4 dh5">
+            <h4 className="th4">Easy Fitting</h4>
+            <hr />
+            <p>
+              Introducing our expert glass fitting service, where quality meets
+              convenience. We specialize in seamless glass installations,
+              ensuring your projects are not only stunning but also hassle-free.
+              Trust us to bring your vision to life with precision and
+              professionalism.
+            </p>
+          </div>
         </div>
-           <div className="col-md-3">
-             <h4 className="th3">
-             Easy
-             Fitting
-             </h4>
-             <p>Introducing our expert glass fitting service, where quality meets convenience. We specialize in seamless glass installations, ensuring your projects are not only stunning but also hassle-free. Trust us to bring your vision to life with precision and professionalism.</p>
-           </div>
-           <div className="col-md-3">
-           <h4 className="th3">
-           Easy
-           Fitting
-           </h4>
-           <p>Introducing our expert glass fitting service, where quality meets convenience. We specialize in seamless glass installations, ensuring your projects are not only stunning but also hassle-free. Trust us to bring your vision to life with precision and professionalism.</p>
-         </div>
-         <div className="col-md-3">
-         <h4 className="th3">
-         Easy
-         Fitting
-         </h4>
-         <p>Introducing our expert glass fitting service, where quality meets convenience. We specialize in seamless glass installations, ensuring your projects are not only stunning but also hassle-free. Trust us to bring your vision to life with precision and professionalism.</p>
-       </div>
-       <div className="col-md-3">
-       <h4 className="th3">
-       Easy
-       Fitting
-       </h4>
-       <p>Introducing our expert glass fitting service, where quality meets convenience. We specialize in seamless glass installations, ensuring your projects are not only stunning but also hassle-free. Trust us to bring your vision to life with precision and professionalism.</p>
-     </div>
+        <div className="row mt-5">
+          <div className="dh4">
+            <h2 className="th3">Our Services Include</h2>
+          </div>
+
+          <div className="col-md-4 dh6 mt-4">
+            <div class="img-cont">
+              <h2 className="th5">Home</h2>
+              <img
+                class="img3"
+                src="images/vertical-shot-transparent-doors-commercial-building.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div className="col-md-4 dh6 mt-4">
+            <div class="img-cont">
+              <h2 className="th5">Office</h2>
+              <img
+                class="img3"
+                src="images/city-square.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div className="col-md-4 dh6 mt-4">
+            <div class="img-cont">
+              <h2 className="th5">Hospital</h2>
+              <img
+                class="img3"
+                src="images/transparent-elevator-underground-passage.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <button className="btn btn-dark mt-4 btn-md ">View More</button>
         </div>
       </div>
     </div>
-  );
+  )
 }
 
 export default Home;
