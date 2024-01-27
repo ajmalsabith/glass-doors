@@ -1,10 +1,19 @@
-
 .navbar {
-    position: fixed;
-    width: 100%;
-    background-color: #ffffff; 
-    top: 0;
-    z-index: 1000; /* Adjust the z-index as needed */
+  position: fixed;
+  width: 100%;
+  background-color: #ffffff;
+  top: 0;
+  z-index: 1000;
+}
 
-  }
-  
+.navbar-nav {
+  margin-right: 100px; /* Adjust the spacing between the list items as needed */
+}
+
+.navbar-nav li {
+  margin-left: 40px; /* Adjust the spacing between the list items as needed */
+}
+
+li{
+  font-weight: bold;
+}
