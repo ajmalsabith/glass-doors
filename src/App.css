@@ -1,6 +1,10 @@
 body{
   margin: 0;
   background-color: white;
-  padding-top: 90px; 
+  padding-top: 120px; 
 
+}
+
+hr{
+  color: #a26028;
 }
