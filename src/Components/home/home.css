@@ -18,12 +18,12 @@ a{
 }
 
 .btn1:hover{
-    background-color: blueviolet;
+    background-color: #a26028;
     transform: scale(1.1);
 }
 
 .btn2:hover{
-    background-color: blueviolet;
+    background-color: #a26028;
     transform: scale(1.1);
 
 }
@@ -123,3 +123,5 @@ a{
     color: #a26028;
     margin-left: 45%;
   }
+
+ 
