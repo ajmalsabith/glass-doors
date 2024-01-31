@@ -7,13 +7,24 @@
 }
 
 .navbar-nav {
-  margin-right: 100px; /* Adjust the spacing between the list items as needed */
+  margin-right: 100px; 
 }
 
 .navbar-nav li {
-  margin-left: 40px; /* Adjust the spacing between the list items as needed */
+  margin-left: 40px; 
 }
 
 li{
   font-weight: bold;
+}
+
+
+
+.active-link {
+  color: #ff0000; 
+}
+
+.nav-item:hover{
+  
+  border-bottom: 4px solid #462c16;
 }

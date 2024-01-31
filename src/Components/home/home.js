@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../navbar/navbar";
 import { FaQuoteRight } from "react-icons/fa";
 import "./home.css";
+import Footer from "../footer/footer";
 
 function Home() {
   return (
@@ -26,8 +27,7 @@ function Home() {
           <div className="col-md-6">
             <div className="dh3">
               <h2 className="th1 mt-5">About Us</h2>
-              <hr />
-              <p className="th2">
+              <p className="th2 text-center">
                 Glassberry is an young and emerging Trader cum Service Provider
                 Company for Architectural glass and Hardware, based in Cochin
                 into the field of general trading and supply-cum-service in
@@ -150,6 +150,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }
